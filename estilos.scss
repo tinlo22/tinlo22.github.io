@@ -1,0 +1,75 @@
+$colorazul:blue;
+$colorwhite:white;
+$coloraqua:aqua;
+
+html
+{
+    scroll-behavior: unset;
+}
+
+.titulo
+{
+    background-color: $colorazul;
+    color: $colorwhite;
+    text-align: center;
+}
+
+#Lorem
+{
+    font-size: medium;
+    display: inline-block;
+    text-align: center;
+}
+
+.tabla_1
+{
+    background-color: $coloraqua;
+}
+
+.Nosotros
+{
+    background-color: $colorwhite;
+}
+
+.servicios
+{
+    background-image: url("./Imagenes/Gintonic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: medium;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+footer
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    font-size: xx-small;
+
+}
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+
+.imagen_servicios{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Contacto
+{
+ text-align: center;
+ font-size: xx-small;
+ color: $coloraqua;
+ ;
+}
